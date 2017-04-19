@@ -1,0 +1,22 @@
+{
+  "name": "graphql-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@cover-slide/defer": "^1.0.0",
+    "express-graphql": "^0.6.4",
+    "graphql": "^0.9.3",
+    "jugglingdb": "^2.0.0-rc8",
+    "jugglingdb-sqlite3": "^0.1.0",
+    "koa": "^2.2.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-connect": "^2.0.0",
+    "koa-mount": "^3.0.0",
+    "koa-static": "^3.0.0",
+    "lokijs": "^1.4.3"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}

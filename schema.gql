@@ -1,0 +1,17 @@
+type User {
+  id: String
+  name: String
+  posts: [Post]
+}
+
+type Post {
+  id: String
+  user: User
+  text: String
+}
+
+type Query {
+  user(id: Int, name: String): User
+  finduser(name: String, limit: Int): [User]
+  createUser(name: String): User
+}
